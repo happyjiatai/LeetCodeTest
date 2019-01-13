@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1_two_sum" />
+            <option value="$PROJECT_DIR$/2_reverse" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
