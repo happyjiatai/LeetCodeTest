@@ -1,1 +1,1 @@
-include ':app', ':1_two_sum', ':2_reverse'
+include ':app', ':1_two_sum', ':2_reverse', ':3_removeOuterParentheses'
