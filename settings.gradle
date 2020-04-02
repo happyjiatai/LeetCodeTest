@@ -1,1 +1,1 @@
-include ':app', ':1_two_sum', ':2_reverse', ':3_removeOuterParentheses'
+include ':app', ':1_two_sum', ':2_reverse', ':3_removeOuterParentheses', ':4_valid_parentheses', ':5_yong-liang-ge-zhan-shi-xian-dui-lie', ':6_min-stack', ':7_implement-stack-using-queues', ':8_implement-queue-using-stacks'

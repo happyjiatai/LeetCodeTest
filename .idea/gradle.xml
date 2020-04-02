@@ -3,9 +3,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -13,6 +10,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1_two_sum" />
             <option value="$PROJECT_DIR$/2_reverse" />
+            <option value="$PROJECT_DIR$/3_removeOuterParentheses" />
+            <option value="$PROJECT_DIR$/4_valid_parentheses" />
+            <option value="$PROJECT_DIR$/5_yong-liang-ge-zhan-shi-xian-dui-lie" />
+            <option value="$PROJECT_DIR$/6_min-stack" />
+            <option value="$PROJECT_DIR$/7_implement-stack-using-queues" />
+            <option value="$PROJECT_DIR$/8_implement-queue-using-stacks" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
