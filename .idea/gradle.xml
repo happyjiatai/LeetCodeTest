@@ -8,6 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/10_baseball-game" />
+            <option value="$PROJECT_DIR$/11_backspace-string-compare" />
+            <option value="$PROJECT_DIR$/12_remove-all-adjacent-duplicates-in-string" />
+            <option value="$PROJECT_DIR$/13_min-stack-lcci" />
+            <option value="$PROJECT_DIR$/14_implement-queue-using-stacks-lcci" />
+            <option value="$PROJECT_DIR$/15_hua-dong-chuang-kou-de-zui-da-zhi-lcof" />
             <option value="$PROJECT_DIR$/1_two_sum" />
             <option value="$PROJECT_DIR$/2_reverse" />
             <option value="$PROJECT_DIR$/3_removeOuterParentheses" />
@@ -16,6 +22,7 @@
             <option value="$PROJECT_DIR$/6_min-stack" />
             <option value="$PROJECT_DIR$/7_implement-stack-using-queues" />
             <option value="$PROJECT_DIR$/8_implement-queue-using-stacks" />
+            <option value="$PROJECT_DIR$/9_next-greater-element-i" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

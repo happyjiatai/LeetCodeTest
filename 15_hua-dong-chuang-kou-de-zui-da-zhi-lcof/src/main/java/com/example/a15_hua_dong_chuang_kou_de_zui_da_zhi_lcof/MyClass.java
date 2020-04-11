@@ -1,6 +1,7 @@
 package com.example.a15_hua_dong_chuang_kou_de_zui_da_zhi_lcof;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class MyClass {
@@ -138,6 +139,33 @@ public class MyClass {
             public boolean isEmpty() {
                 return stack.isEmpty();
             }
+        }
+    }
+
+
+    class Solution2 {
+        public int[] maxSlidingWindow(int[] nums, int k) {
+            if(nums == null || nums.length == 0 || k == 0){
+                return new int[0];
+            }
+
+            LinkedList<Integer> linkedList = new LinkedList<Integer>();
+            int[] res = new int[nums.length - k + 1];
+            for(int i = 0; i < nums.length; i++) {
+                while (!linkedList.isEmpty()
+                        && nums[i] > nums[linkedList.peekLast()]) {
+                    linkedList.removeLast();
+                }
+                linkedList.add(nums[i]);
+                if (i - k >= 0 && linkedList.getFirst() == i - k){
+                    linkedList.removeFirst();
+                }
+
+                if (i - k + 1 >= 0){
+                    res[i - k + 1] = nums[linkedList.getFirst()];
+                }
+            }
+            return res;
         }
     }
 
